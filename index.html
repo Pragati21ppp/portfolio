@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidart Photography</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="vendors/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html">
+            <div class="signature">
+                <h5 class="signature-heading">Sidart</h5>
+                <h3 class="signature-subheading">Photography</h3>
+            </div>
+        </a>
+    </header>
+
+    <!-- NAV BAR -->
+    <div class="container">
+        <nav class="navbar navbar-expand-md p-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trigger">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="collapse navbar-collapse d-md-flex justify-content-center" id="trigger">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-description">
+                    <div class="signature">
+                        <h5 class="signature-heading">Siddharth Shinde</h5>
+                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sint nam iusto
+                            asperiores debitis omnis ipsa!</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/photographer.jpg" alt="photographer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="gallery py-5" id="gallery">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h1 class="heading-title">Recent Shots</h1>
+            </div>
+            <div class="row no-gutters">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-1.jpg" data-lightbox="photograph">
+                        <img src="images/img-1.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-2.jpg" data-lightbox="photograph">
+                        <img src="images/img-2.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-md-4">
+                    <a href="images/img-3.jpg" data-lightbox="photograph">
+                        <img src="images/img-3.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-4.jpg" data-lightbox="photograph">
+                        <img src="images/img-4.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-5.jpg" data-lightbox="photograph">
+                        <img src="images/img-5.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-6.jpg" data-lightbox="photograph">
+                        <img src="images/img-6.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-7.jpg" data-lightbox="photograph">
+                        <img src="images/img-7.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-8.jpg" data-lightbox="photograph">
+                        <img src="images/img-8.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                    <a href="images/img-9.jpg" data-lightbox="photograph">
+                        <img src="images/img-9.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials py-5" id="testimonials">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h1 class="heading-title">What People Are Saying</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-8 m-auto">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="img-box">
+                                    <img src="images/img-1.jpg" alt="customer image">
+                                </div>
+                                <p class="testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Repellat quibusdam deleniti temporibus. Culpa, aliquid doloremque?</p>
+                                <p class="customer"><strong>Mary Jane</strong></p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="img-box">
+                                    <img src="images/img-5.jpg" alt="customer image">
+                                </div>
+                                <p class="testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Repellat quibusdam deleniti temporibus. Culpa, aliquid doloremque?</p>
+                                <p class="customer"><strong>John Doe</strong></p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="img-box">
+                                    <img src="images/img-8.jpg" alt="customer image">
+                                </div>
+                                <p class="testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Repellat quibusdam deleniti temporibus. Culpa, aliquid doloremque?</p>
+                                <p class="customer"><strong>Smith Doe</strong></p>
+                            </div>
+                        </div>
+                        <a href="#myCarousel" class="carousel-control left carousel-control-prev" data-slide-to="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a href="#myCarousel" class="carousel-control right carousel-control-next" data-slide-to="prev">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
+                    <a href="index.html">
+                        <div class="signature">
+                            <h5 class="signature-heading">Siddharth Shinde</h5>
+                            <h3 class="signature-subheading">Photography</h3>
+                        </div>
+                    </a>
+                    <small class="d-block mt-2 text-muted">&copy; Copyright 2023. All rights reserved</small>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
+                    <h5 class="text-uppercase">Follow me</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="social">
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4" id="contact">
+                    <h5 class="text-uppercase">Studio</h5>
+                    <p class="text-muted">34 nashkk, <br> .</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="vendors/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
